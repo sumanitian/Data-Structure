@@ -6,6 +6,8 @@ int BinarySearch(int arr[], int n, int key){
 
     int start=0, end=n-1, mid;
     while(start<=end){
+        
+        // To find the mid
         mid = start + (end-start/2);
         if(arr[mid]==key){
             return mid;
